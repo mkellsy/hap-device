@@ -1,8 +1,8 @@
-import { Common } from "./Common";
+import { Device } from "./Device";
 import { DeviceState } from "../State/DeviceState";
 import { ZoneStatus } from "../State/ZoneStatus";
 
-export interface Dimmer extends Common {
+export interface Dimmer extends Device {
     update(status: ZoneStatus): void;
     set(status: Partial<DeviceState>): void;
 }
