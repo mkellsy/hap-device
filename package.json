@@ -1,0 +1,29 @@
+{
+    "version": "1.0.0",
+    "name": "@mkellsy/hap-device",
+    "displayName": "HAP Device interfaces",
+    "description": "Publishes public device interfaces for standard plugins",
+    "author": "Michael Kellsy",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mkellsy/hap-device"
+    },
+    "homepage": "https://github.com/mkellsy/hap-device",
+    "main": "lib/index.js",
+    "files": [
+        "/lib"
+    ],
+    "scripts": {
+        "build": "rm -fR ./lib && tsc --project tsconfig.json",
+        "prepublishOnly": "npm run build"
+    },
+    "dependencies": {
+        "js-logger": "^1.6.1"
+    },
+    "devDependencies": {
+        "@types/debug": "^4.1.12",
+        "@types/node": "^20.11.0",
+        "typescript": "^5.3.3"
+    }
+}

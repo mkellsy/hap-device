@@ -128,3 +128,9 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Annoying files
+*.DS_Store
+
+# build output
+lib/

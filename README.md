@@ -1,2 +1,2 @@
-# hap-device
-Publishes public device interfaces for standard plugins
+# HAP Device Interfaces
+Public interfaces for making HAP plugins more standard.
