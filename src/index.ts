@@ -1,5 +1,4 @@
 export { Button } from "./Devices/Button";
-export { Common } from "./Devices/Common";
 export { Contact } from "./Devices/Contact";
 export { Device } from "./Devices/Device";
 export { Dimmer } from "./Devices/Dimmer";

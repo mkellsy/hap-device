@@ -1,7 +1,7 @@
 import { Button } from "./Button";
-import { Common } from "./Common";
+import { Device } from "./Device";
 
-export interface Remote extends Common {
+export interface Remote extends Device {
     buttons: Button[];
 
     update(_status: unknown): void;

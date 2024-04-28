@@ -1,7 +1,7 @@
 import { Button } from "./Button";
-import { Common } from "./Common";
+import { Device } from "./Device";
 
-export interface Keypad extends Common {
+export interface Keypad extends Device {
     buttons: Button[];
 
     update(_status: unknown): void;
