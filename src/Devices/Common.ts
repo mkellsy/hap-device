@@ -11,6 +11,7 @@ export interface Common {
     name: string;
     room: string;
     capabilities: { [key: string]: Capability };
+    manufacturer: string;
     log: Logger.ILogger;
     address: Address;
     type: DeviceType;
