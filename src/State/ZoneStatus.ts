@@ -11,4 +11,7 @@ export type ZoneStatus = Address & {
     AssociatedArea: Address;
     Availability: "Available" | "Unavailable" | "Mixed" | "Unknown";
     Tilt: number;
+    AutoLevel: "On" | "Off";
+    EcoLevel: "On" | "Off";
+    WhooshLevel: "On" | "Off";
 };

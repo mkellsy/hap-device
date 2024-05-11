@@ -3,12 +3,14 @@ export { Contact } from "./Devices/Contact";
 export { Device } from "./Devices/Device";
 export { Dimmer } from "./Devices/Dimmer";
 export { Fan } from "./Devices/Fan";
+export { Humidity } from "./Devices/Humidity";
 export { Keypad } from "./Devices/Keypad";
 export { Occupancy } from "./Devices/Occupancy";
 export { Remote } from "./Devices/Remote";
 export { Shade } from "./Devices/Shade";
 export { Strip } from "./Devices/Strip";
 export { Switch } from "./Devices/Switch";
+export { Temperature } from "./Devices/Temperature";
 export { Unknown } from "./Devices/Unknown";
 
 export { Action } from "./Properties/Action";

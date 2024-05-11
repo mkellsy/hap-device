@@ -14,6 +14,7 @@ export interface DeviceState {
     level?: number;
     tilt?: number;
     hue?: number;
+    humidity?: number;
     luminance?: number;
     temprature?: number;
     eco?:
