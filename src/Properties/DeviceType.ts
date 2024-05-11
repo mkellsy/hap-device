@@ -1,11 +1,12 @@
 export enum DeviceType {
-    Dimmer = "Dimmer",
-    Switch = "Switch",
     Contact = "Contact",
-    Strip = "Strip",
-    Remote = "Remote",
+    Dimmer = "Dimmer",
+    Fan = "Fan",
     Keypad = "Keypad",
-    Shade = "Shade",
     Occupancy = "Occupancy",
+    Remote = "Remote",
+    Shade = "Shade",
+    Strip = "Strip",
+    Switch = "Switch",
     Unknown = "Unknown",
 }
