@@ -1,5 +1,5 @@
 {
-    "version": "1.0.3",
+    "version": "1.1.2",
     "name": "@mkellsy/hap-device",
     "displayName": "HAP Device interfaces",
     "description": "Publishes public device interfaces for standard plugins",
@@ -15,7 +15,7 @@
         "/lib"
     ],
     "scripts": {
-        "build": "rm -fR ./lib && tsc --project tsconfig.json",
+        "build": "./build",
         "prepublishOnly": "npm run build"
     },
     "dependencies": {
@@ -24,6 +24,8 @@
     "devDependencies": {
         "@types/debug": "^4.1.12",
         "@types/node": "^20.11.0",
+        "colors": "^1.4.0",
+        "esbuild": "^0.20.2",
         "typescript": "^5.3.3"
     }
 }

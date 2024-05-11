@@ -2,6 +2,7 @@ export { Button } from "./Devices/Button";
 export { Contact } from "./Devices/Contact";
 export { Device } from "./Devices/Device";
 export { Dimmer } from "./Devices/Dimmer";
+export { Fan } from "./Devices/Fan";
 export { Keypad } from "./Devices/Keypad";
 export { Occupancy } from "./Devices/Occupancy";
 export { Remote } from "./Devices/Remote";
