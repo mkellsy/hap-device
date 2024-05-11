@@ -14,4 +14,5 @@ export type ZoneStatus = Address & {
     AutoLevel: "On" | "Off";
     EcoLevel: "On" | "Off";
     WhooshLevel: "On" | "Off";
+    ColorTuningStatus: { WhiteTuningLevel: { Kelvin: number; } };
 };
