@@ -16,4 +16,13 @@ export interface DeviceState {
     hue?: number;
     luminance?: number;
     temprature?: number;
+    eco?:
+        | "On"
+        | "Off";
+    auto?:
+        | "On"
+        | "Off";
+    whoosh?:
+        | "On"
+        | "Off";
 }
