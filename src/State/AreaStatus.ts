@@ -2,7 +2,7 @@ import { Address } from "../Properties/Address";
 
 export type AreaStatus = Address & {
     CurrentScene: Address;
-    Humidity: string;
+    Humidity: number;
     Level: number;
     OccupancyStatus: string;
     Temperature: number;
