@@ -1,3 +1,6 @@
+/**
+ * Defines a device's current status response.
+ */
 export interface DeviceState {
     state:
         | "On"

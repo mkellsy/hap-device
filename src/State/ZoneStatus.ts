@@ -1,6 +1,9 @@
 import { Address } from "../Properties/Address";
 import { FanSpeed } from "../Properties/FanSpeed";
 
+/**
+ * Defines an zone's current status response.
+ */
 export type ZoneStatus = Address & {
     CCOLevel: "Open" | "Closed";
     Level: number;
