@@ -15,7 +15,7 @@ export interface DeviceState {
         | "Occupied"
         | "Unoccupied"
         | "Unknown";
-    button?: Address;
+    led?: Address;
     speed?: number;
     level?: number;
     tilt?: number;

@@ -1,3 +1,5 @@
+import { Address } from "../Properties/Address";
+
 /**
  * Interface for a single button.
  */
@@ -21,4 +23,9 @@ export interface Button {
      * If the button is a raise or lower button.
      */
     raiseLower?: boolean;
+
+    /**
+     * The button's led address.
+     */
+    led?: Address;
 }
