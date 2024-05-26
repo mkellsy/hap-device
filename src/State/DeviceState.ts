@@ -1,3 +1,5 @@
+import { Address } from "../Properties/Address";
+
 /**
  * Defines a device's current status response.
  */
@@ -13,6 +15,7 @@ export interface DeviceState {
         | "Occupied"
         | "Unoccupied"
         | "Unknown";
+    button?: Address;
     speed?: number;
     level?: number;
     tilt?: number;

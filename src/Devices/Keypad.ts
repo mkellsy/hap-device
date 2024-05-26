@@ -1,5 +1,6 @@
 import { Button } from "./Button";
 import { Device } from "./Device";
+import { DeviceState } from "../State/DeviceState";
 
 /**
  * Defines a keypad (Sunnata) device.
@@ -17,8 +18,9 @@ export interface Keypad extends Device {
     update(_status: unknown): void;
 
     /**
-     * @noop
-     * Controls the device.
+     * Controls the device leds.
+     *
+     * @param status A partial device state object.
      */
-    set(_status: unknown): void;
+    set(status: Partial<DeviceState>): void;
 }
