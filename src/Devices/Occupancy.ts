@@ -1,4 +1,3 @@
-
 import { AreaStatus } from "../State/AreaStatus";
 import { Device } from "./Device";
 
@@ -14,7 +13,6 @@ export interface Occupancy extends Device {
     update(status: AreaStatus): void;
 
     /**
-     * @noop
      * Controls the device.
      */
     set(_state: unknown): void;

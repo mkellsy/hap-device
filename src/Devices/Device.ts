@@ -102,7 +102,7 @@ export interface Device {
      * @param status The current zone state.
      */
     update(status: ZoneStatus | AreaStatus): void;
-    
+
     /**
      * Controls the device.
      *

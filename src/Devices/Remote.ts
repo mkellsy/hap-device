@@ -11,13 +11,11 @@ export interface Remote extends Device {
     buttons: Button[];
 
     /**
-     * @noop
      * Is called when a new state is available.
      */
     update(_status: unknown): void;
 
     /**
-     * @noop
      * Controls the device.
      */
     set(_state: unknown): void;
