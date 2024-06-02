@@ -15,5 +15,5 @@ export interface Occupancy extends Device {
     /**
      * Controls the device.
      */
-    set(_state: unknown): void;
+    set(state: unknown): Promise<void>;
 }

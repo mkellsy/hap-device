@@ -18,5 +18,5 @@ export interface Fan extends Device {
      *
      * @param status A partial device state object.
      */
-    set(status: Partial<DeviceState>): void;
+    set(status: Partial<DeviceState>): Promise<void>;
 }

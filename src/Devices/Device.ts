@@ -108,5 +108,5 @@ export interface Device {
      *
      * @param status A partial device state object.
      */
-    set(state: Partial<DeviceState>): void;
+    set(state: Partial<DeviceState>): Promise<void>;
 }
