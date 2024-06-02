@@ -53,6 +53,11 @@ export enum DeviceType {
     Switch = "Switch",
 
     /**
+     * Timeclock device.
+     */
+    Timeclock = "Timeclock",
+
+    /**
      * Temperature sensor.
      */
     Temperature = "Temperature",
