@@ -6,6 +6,7 @@ import { AreaStatus } from "../State/AreaStatus";
 import { Capability } from "../Properties/Capability";
 import { DeviceState } from "../State/DeviceState";
 import { DeviceType } from "../Properties/DeviceType";
+import { TimeclockStatus } from "../State/TimeclockStatus";
 import { ZoneStatus } from "../State/ZoneStatus";
 
 /**
@@ -99,9 +100,9 @@ export interface Device {
     /**
      * Is called when a new state is available.
      *
-     * @param status The current zone state.
+     * @param status The current zone, area or timeclock state.
      */
-    update(status: ZoneStatus | AreaStatus): void;
+    update(status: ZoneStatus | AreaStatus | TimeclockStatus): void;
 
     /**
      * Controls the device.
