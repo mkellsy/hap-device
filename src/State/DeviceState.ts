@@ -1,5 +1,3 @@
-import { Address } from "../Properties/Address";
-
 /**
  * Defines a device's current status response.
  */

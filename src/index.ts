@@ -10,8 +10,9 @@ export { Remote } from "./Devices/Remote";
 export { Shade } from "./Devices/Shade";
 export { Strip } from "./Devices/Strip";
 export { Switch } from "./Devices/Switch";
-export { Timeclock } from "./Devices/Timeclock";
 export { Temperature } from "./Devices/Temperature";
+export { Thermostat } from "./Devices/Thermostat";
+export { Timeclock } from "./Devices/Timeclock";
 export { Unknown } from "./Devices/Unknown";
 
 export { Action } from "./Properties/Action";
