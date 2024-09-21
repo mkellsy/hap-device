@@ -1,5 +1,5 @@
 {
-    "version": "1.7.1",
+    "version": "1.7.2",
     "name": "@mkellsy/hap-device",
     "displayName": "HAP Device interfaces",
     "description": "Publishes public device interfaces for standard plugins",

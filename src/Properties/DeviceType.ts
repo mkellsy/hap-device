@@ -60,6 +60,11 @@ export enum DeviceType {
     /**
      * Temperature sensor.
      */
+    Thermostat = "Thermostat",
+
+    /**
+     * Temperature sensor.
+     */
     Temperature = "Temperature",
 
     /**
