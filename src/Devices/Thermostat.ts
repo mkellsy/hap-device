@@ -1,6 +1,6 @@
-import { AreaStatus } from "../State/AreaStatus";
 import { Device } from "./Device";
 import { DeviceState } from "../State/DeviceState";
+import { ThermostatStatus } from "../State/ThermostatStatus";
 
 /**
  * Defines a thermostat device.
@@ -11,7 +11,7 @@ export interface Thermostat extends Device {
      *
      * @param status The current zone state.
      */
-    update(status: AreaStatus): void;
+    update(status: ThermostatStatus): void;
 
     /**
      * Controls the device.

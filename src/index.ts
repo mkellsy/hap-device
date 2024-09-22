@@ -27,6 +27,7 @@ export { TriggerOptions } from "./Properties/TriggerOptions";
 
 export { AreaStatus } from "./State/AreaStatus";
 export { DeviceState } from "./State/DeviceState";
+export { ThermostatStatus } from "./State/ThermostatStatus";
 export { TimeclockStatus } from "./State/TimeclockStatus";
 export { TriggerState } from "./State/TriggerState";
 export { ZoneStatus } from "./State/ZoneStatus";
