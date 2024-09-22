@@ -9,6 +9,4 @@ export type AreaStatus = Address & {
     Level: number;
     OccupancyStatus: string;
     Temperature: number;
-    MinTemperature: number;
-    MaxTemperature: number;
 };
