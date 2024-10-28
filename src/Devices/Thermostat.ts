@@ -4,6 +4,7 @@ import { ThermostatStatus } from "../State/ThermostatStatus";
 
 /**
  * Defines a thermostat device.
+ * @public
  */
 export interface Thermostat extends Device {
     /**

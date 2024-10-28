@@ -1,5 +1,6 @@
 /**
  * Available ip address families.
+ * @public
  */
 export enum HostAddressFamily {
     /**

@@ -4,6 +4,7 @@ import { ZoneStatus } from "../State/ZoneStatus";
 
 /**
  * Defines a on/off switch device.
+ * @public
  */
 export interface Switch extends Device {
     /**

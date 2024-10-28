@@ -3,6 +3,7 @@ import { Device } from "./Device";
 
 /**
  * Defines a occupancy sensor device.
+ * @public
  */
 export interface Occupancy extends Device {
     /**

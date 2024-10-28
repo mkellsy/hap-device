@@ -4,6 +4,7 @@ import { ZoneStatus } from "../State/ZoneStatus";
 
 /**
  * Defines a led light strip device.
+ * @public
  */
 export interface Strip extends Device {
     /**

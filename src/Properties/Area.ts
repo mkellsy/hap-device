@@ -2,6 +2,7 @@ import { Address } from "./Address";
 
 /**
  * Defines an area, mainly used for Lutron devices.
+ * @public
  */
 export type Area = Address & {
     /**

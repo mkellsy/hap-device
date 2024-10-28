@@ -4,6 +4,7 @@ import { DeviceState } from "../State/DeviceState";
 
 /**
  * Defines a keypad (Sunnata) device.
+ * @public
  */
 export interface Keypad extends Device {
     /**

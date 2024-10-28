@@ -3,6 +3,7 @@ import { Device } from "./Device";
 
 /**
  * Defines a remote (Pico) device.
+ * @public
  */
 export interface Remote extends Device {
     /**

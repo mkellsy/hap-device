@@ -4,6 +4,7 @@ import { ZoneStatus } from "../State/ZoneStatus";
 
 /**
  * Defines a contact (CCO) device.
+ * @public
  */
 export interface Contact extends Device {
     /**

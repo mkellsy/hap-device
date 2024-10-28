@@ -4,6 +4,7 @@ import { ZoneStatus } from "../State/ZoneStatus";
 
 /**
  * Defines a fan device.
+ * @public
  */
 export interface Fan extends Device {
     /**

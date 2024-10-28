@@ -4,6 +4,7 @@ import { ZoneStatus } from "../State/ZoneStatus";
 
 /**
  * Defines a window shade device.
+ * @public
  */
 export interface Shade extends Device {
     /**

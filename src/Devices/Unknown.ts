@@ -2,6 +2,7 @@ import { Device } from "./Device";
 
 /**
  * Defines an unknown (placeholder) device.
+ * @public
  */
 export interface Unknown extends Device {
     /**

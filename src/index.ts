@@ -1,3 +1,9 @@
+/**
+ * Public interfaces for making HAP plugins more standard.
+ *
+ * @packageDocumentation
+ */
+
 export { Button } from "./Devices/Button";
 export { Contact } from "./Devices/Contact";
 export { Device } from "./Devices/Device";

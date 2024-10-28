@@ -2,6 +2,7 @@ import { Address } from "../Properties/Address";
 
 /**
  * Interface for a single button.
+ * @public
  */
 export interface Button {
     /**

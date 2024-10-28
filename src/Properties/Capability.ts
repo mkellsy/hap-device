@@ -1,5 +1,6 @@
 /**
  * Defines a device capibility.
+ * @public
  */
 export interface Capability {
     /**

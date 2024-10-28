@@ -3,6 +3,7 @@ import { FanSpeed } from "../Properties/FanSpeed";
 
 /**
  * Defines an zone's current status response.
+ * @public
  */
 export type ZoneStatus = Address & {
     CCOLevel: "Open" | "Closed";

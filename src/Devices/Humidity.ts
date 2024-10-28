@@ -3,6 +3,7 @@ import { Device } from "./Device";
 
 /**
  * Defines a humidity sensor device.
+ * @public
  */
 export interface Humidity extends Device {
     /**

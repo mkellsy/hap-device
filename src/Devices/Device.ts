@@ -12,6 +12,7 @@ import { ZoneStatus } from "../State/ZoneStatus";
 
 /**
  * Stores common information about a device.
+ * @public
  */
 export interface Device {
     /**

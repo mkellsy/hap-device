@@ -4,6 +4,7 @@ import { ZoneStatus } from "../State/ZoneStatus";
 
 /**
  * Defines a dimmable light device.
+ * @public
  */
 export interface Dimmer extends Device {
     /**

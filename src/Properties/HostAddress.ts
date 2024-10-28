@@ -2,6 +2,7 @@ import { HostAddressFamily } from "./HostAddressFamily";
 
 /**
  * Defines a host ip address, recieved from mdns.
+ * @public
  */
 export interface HostAddress {
     /**

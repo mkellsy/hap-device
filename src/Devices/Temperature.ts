@@ -3,6 +3,7 @@ import { Device } from "./Device";
 
 /**
  * Defines a temperature sensor device.
+ * @public
  */
 export interface Temperature extends Device {
     /**
