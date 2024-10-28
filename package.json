@@ -7,7 +7,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/mkellsy/hap-device"
+        "url": "git+https://github.com/mkellsy/hap-device.git"
     },
     "homepage": "https://github.com/mkellsy/hap-device",
     "main": "lib/index.js",
